@@ -1,3 +1,17 @@
+Full description https://habr.com/post/402233/
+
+Brief:
+
+1. Build for BCM63XX route:
+git checkout bcm63xxgpio
+./configure --enable-bcm63xxgpio
+make
+
+2.Using example:
+openocd -f interface/bcm63xx-swd.cfg -f target/stm32f1x.cfg
+
+Good Luck debug...
+
 Welcome to OpenOCD!
 ===================
 
